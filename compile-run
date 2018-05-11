@@ -1,0 +1,7 @@
+if gcc ./mybash.c -o ./mybash; then
+	echo "Compilation successful."
+	echo "Running..."
+	./mybash
+else
+	echo "Compilation failed."
+fi
